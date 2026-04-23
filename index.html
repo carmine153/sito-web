@@ -28,11 +28,13 @@
     </nav>
 
     <div class="container text-center py-4">
-        <a href="/">
-            <img src="https://placehold.co/400x80?text=THE+WASHINGTON+TIMES" alt="Logo Placeholder" class="img-fluid"></a>
+        <a href="index.html" class="text-decoration-none">
+            <img src="https://placehold.co/400x80?text=THE+WASHINGTON+TIMES"
+                 alt="Torna alla Home"
+                 class="img-fluid">
+        </a>
     </div>
     </div>
-
     <nav class="navbar navbar-expand-lg navbar-light border-top border-bottom">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -40,15 +42,52 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav text-uppercase fw-bold">
-                    <li class="nav-item"><a class="nav-link px-3" href="#">News</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#">Politics</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#">Commentary</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#">Sports</a></li>
-                    <li class="nav-item"><a class="nav-link px-3" href="#">Culture</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3" href="#" id="newsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            News
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="newsDropdown">
+                            <li><a class="dropdown-item" href="#">National</a></li>
+                            <li><a class="dropdown-item" href="#">World</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3" href="#" id="politicsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Politics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="politicsDropdown">
+                            <li><a class="dropdown-item" href="#">White House</a></li>
+                            <li><a class="dropdown-item" href="#">Congress</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3" href="#" id="commentaryDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Commentary
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="commentaryDropdown">
+                            <li><a class="dropdown-item" href="#">Editorials</a></li>
+                            <li><a class="dropdown-item" href="#">Letters</a></li>
+                            <li><a class="dropdown-item" href="#">Columnists</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle px-3" href="#" id="sportsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sports
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="sportsDropdown">
+                            <li><a class="dropdown-item" href="#">Football</a></li>
+                            <li><a class="dropdown-item" href="#">Basketball</a></li>
+                            <li><a class="dropdown-item" href="#">Baseball</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
+
 </header>
 </body>
 </html>
