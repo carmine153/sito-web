@@ -6,23 +6,30 @@
     <title>Riproduzione Washington Times - Layout Assignment</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-        body { font-family: sans-serif; }
-        header { border-bottom: 3px solid #000; padding: 20px 0; }
-        .placeholder-img { background-color: #e9ecef; border: 1px solid #dee2e6; }
-    </style>
 </head>
 <body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-1">
-        <div class="container d-flex justify-content-between">
-            <span class="navbar-text small text-uppercase">Monday, April 21, 2026</span>
-            <div class="d-flex align-items-center">
-                <a href="#" class="btn btn-sm btn-outline-light me-2">Subscribe</a>
-                <a href="#" class="text-light text-decoration-none small">Sign In</a>
+        <div class="container">
+            <div class="d-flex align-items-center ms-auto">
+
+                <a href="#" class="text-light me-3 text-decoration-none" title="Newsletter">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+
+                <a href="#" class="text-light text-decoration-none small text-uppercase fw-bold me-3" style="font-size: 0.7rem;">
+                    Subscribe
+                </a>
+
+                <a href="#" class="text-light text-decoration-none small text-uppercase fw-bold" style="font-size: 0.7rem;">
+                    Sign In
+                </a>
+
             </div>
         </div>
     </nav>
@@ -89,5 +96,58 @@
     </nav>
 
 </header>
+<main class="container my-4">
+    <div class="row">
+
+        <div class="col-lg-2 d-none d-lg-block border-end">
+            <h6 class="fw-bold text-uppercase small border-bottom pb-2">Latest</h6>
+            <div class="py-2 border-bottom small">
+                <a href="#" class="text-dark">Lorem ipsum dolor sit amet...</a>
+            </div>
+            <div class="py-2 border-bottom small">
+                <a href="#" class="text-dark">Consectetur adipiscing elit...</a>
+            </div>
+        </div>
+
+        <div class="col-lg-7 px-lg-4 border-end-custom">
+            <article class="mb-5">
+                <img src="https://placehold.co/800x450" alt="Main Story" class="img-fluid mb-3">
+                <h1 class="display-5 fw-bold">Titolo della Notizia Principale</h1>
+                <p class="lead text-muted">Sottotitolo lungo che spiega l'evento principale in Lorem Ipsum...</p>
+            </article>
+
+            <hr>
+
+            <div class="row mt-4">
+                <div class="col-md-6 border-end">
+                    <article>
+                        <img src="https://placehold.co/400x250" alt="Sub Story" class="img-fluid mb-2">
+                        <h4 class="h5">Notizia Secondaria 1</h4>
+                    </article>
+                </div>
+                <div class="col-md-6">
+                    <article>
+                        <img src="https://placehold.co/400x250" alt="Sub Story" class="img-fluid mb-2">
+                        <h4 class="h5">Notizia Secondaria 2</h4>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <section class="mb-5">
+                <h3 class="section-title text-uppercase h6">Opinion</h3>
+                <div class="mb-3 border-bottom pb-2">
+                    <span class="text-danger small fw-bold">EDITORIAL</span>
+                    <h5 class="h6">Lorem ipsum dolor sit amet.</h5>
+                </div>
+                <div class="bg-light text-center py-5 border my-4">
+                    <span class="text-muted small">ADVERTISEMENT (Placeholder)</span>
+                </div>
+            </section>
+        </div>
+
+    </div>
+</main>
 </body>
 </html>
