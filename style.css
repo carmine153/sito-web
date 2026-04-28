@@ -12,3 +12,36 @@ header { border-bottom: 3px solid #000; padding: 20px 0; }
 .container {
     max-width: 1500px;
 }
+
+.navbar-light.border-top.border-bottom {
+    background-color: #b22222 !important;
+    border: none !important;
+}
+
+
+.navbar-light.border-top.border-bottom .nav-link {
+    color: white !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.trending-bar {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.trending-title {
+    font-weight: 900;
+    color: #000;
+}
+.trending-bar a:hover {
+    text-decoration: underline !important;
+}
+.col-md-4 h6 {
+    line-height: 1.2;
+    cursor: pointer;
+}
+.col-md-4 h6:hover {
+    color: #b22222;
+}
