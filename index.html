@@ -18,18 +18,21 @@
         <div class="container">
             <div class="d-flex align-items-center ms-auto">
 
-                <a href="#" class="text-light me-3 text-decoration-none" title="Newsletter">
-                    <i class="fa-regular fa-envelope"></i>
-                </a>
+                <div class="d-none d-md-flex align-items-center">
+                    <a href="#" class="text-light me-3 text-decoration-none" title="Newsletter">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <a href="#" class="text-light text-decoration-none small text-uppercase fw-bold me-3" style="font-size: 0.7rem;">
+                        Subscribe
+                    </a>
+                    <a href="#" class="text-light text-decoration-none small text-uppercase fw-bold" style="font-size: 0.7rem;">
+                        Sign In
+                    </a>
+                </div>
 
-                <a href="#" class="text-light text-decoration-none small text-uppercase fw-bold me-3" style="font-size: 0.7rem;">
-                    Subscribe
-                </a>
-
-                <a href="#" class="text-light text-decoration-none small text-uppercase fw-bold" style="font-size: 0.7rem;">
-                    Sign In
-                </a>
-
+                <button class="btn text-light d-md-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuPersonale">
+                    <i class="fa-solid fa-circle-user fa-2x"></i>
+                </button>
             </div>
         </div>
     </nav>
@@ -147,6 +150,23 @@
             </section>
         </div>
 
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="menuPersonale" style="background-color: #b22222 !important; width: 300px;">
+        <div class="offcanvas-header justify-content-end">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-4 text-white">
+            <div class="d-grid gap-2 mb-4">
+                <button class="btn btn-outline-light fw-bold">Sign in</button>
+                <button class="btn btn-outline-light fw-bold">Subscribe</button>
+            </div>
+
+            <ul class="list-unstyled">
+                <li class="py-3 border-bottom border-secondary"><a href="#" class="text-white text-decoration-none fw-bold">Newsletter signup</a></li>
+                <li class="py-3 border-bottom border-secondary"><a href="#" class="text-white text-decoration-none fw-bold">Gift subscriptions</a></li>
+                <li class="py-3 border-bottom border-secondary"><a href="#" class="text-white text-decoration-none fw-bold">Customer service</a></li>
+            </ul>
+        </div>
     </div>
 </main>
 </body>
