@@ -107,7 +107,7 @@ header {
     color: #b22222;
 }
 .bg-dark-red {
-    background-color: #b22222 !important;
+    background-color: #8b0000 !important;
 }
 
 
@@ -172,4 +172,23 @@ header {
 
 .gap-3 {
     gap: 1.5rem !important;
+}
+#userMenu .nav-link {
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+    font-family: 'Georgia', serif;
+}
+
+
+#userMenu .btn-outline-light {
+    border-width: 1px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+
+#userMenu .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left: 5px;
+    transition: all 0.2s;
 }
