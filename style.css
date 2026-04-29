@@ -18,6 +18,48 @@ header {
     font-size: 3.5rem;
     color: #000;
 }
+.news-title {
+    font-family: 'Georgia', serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    color: #000;
+    cursor: pointer;
+    margin-top: -3px;
+}
+
+.news-title:hover {
+    color: #b22222;
+}
+
+
+.news-list img {
+    border-radius: 0;
+}
+.sidebar-right a {
+    font-size: 0.95rem;
+    line-height: 1.3;
+    transition: color 0.2s;
+}
+
+.sidebar-right a:hover {
+    color: #b22222;
+}
+
+
+@media (min-width: 992px) {
+    .border-end-lg { border-right: 1px solid #dee2e6 !important; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .border-start-md { border-left: 1px solid #dee2e6 !important; }
+}
+
+
+.serif-font {
+    font-family: 'Georgia', serif;
+}
+
 
 .placeholder-img { background-color: #e9ecef; border: 1px solid #dee2e6; }
 .navbar > .container {

@@ -47,7 +47,7 @@
 <nav class="navbar navbar-expand-lg navbar-light sticky-top border-bottom">
     <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">a</span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav text-uppercase fw-bold">
@@ -113,6 +113,7 @@
                 <img src="https://placehold.co/80x80" alt="News" class="me-2">
                 <div>
                     <h6 class="small fw-bold mb-1">Lorem ipsum dolor sit amet</h6>
+                    <p class="small mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                 </div>
             </div>
         </div>
@@ -153,52 +154,77 @@
 <main class="container my-4">
     <div class="row">
 
-        <div class="col-lg-2 d-none d-lg-block border-end">
-            <h6 class="fw-bold text-uppercase small border-bottom pb-2">Latest</h6>
-            <div class="py-2 border-bottom small">
-                <a href="#" class="text-dark">Lorem ipsum dolor sit amet...</a>
-            </div>
-            <div class="py-2 border-bottom small">
-                <a href="#" class="text-dark">Consectetur adipiscing elit...</a>
+        <div class="col-12 col-md-5 col-lg-3 order-2 order-md-2 order-lg-1 mb-4">
+            <div class="news-list pe-lg-3 ps-md-4 border-end-lg border-start-md">
+                <h5 class="fw-bold text-uppercase small mb-3 border-bottom pb-2"> Lorem ipsum</h5>
+
+                <div class="d-flex align-items-start mb-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/100x100" alt="sidebar news" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;">
+                    </div>
+                    <div class="ms-3">
+                        <h5 class="news-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h5>
+                    </div>
+
+                </div>
+                <div class="d-flex align-items-start mb-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/100x100" alt="sidebar news" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;">
+                    </div>
+                    <div class="ms-3">
+                        <h5 class="news-title"> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h5>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-start mb-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/100x100" alt="sidebar news" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;">
+                    </div>
+                    <div class="ms-3">
+                        <h5 class="news-title">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</h5>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="col-lg-7 px-lg-4 border-end-custom">
-            <article class="mb-5">
-                <img src="https://placehold.co/800x450" alt="Main Story" class="img-fluid mb-3">
-                <h1 class="display-5 fw-bold">Lorem ipsum dolor sit amet</h1>
-                <p class="lead text-muted">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </article>
+        <div class="col-12 col-md-7 col-lg-6 order-1 order-md-1 order-lg-2 mb-5">
+            <div class="main-article px-lg-3">
+                <img src="https://placehold.co/800x450" class="img-fluid mb-3" alt="Main News">
+                <h1 class="news-title fw-bold serif-font" style="font-size: 2.2rem;">Lorem ipsum dolor sit amet</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 
-            <hr>
+                <hr class="my-4">
 
-            <div class="row mt-4">
-                <div class="col-md-6 border-end">
-                    <article>
-                        <img src="https://placehold.co/400x250" alt="Sub Story" class="img-fluid mb-2">
-                        <h4 class="h5">Lorem ipsum dolor sit amet</h4>
-                    </article>
-                </div>
-                <div class="col-md-6">
-                    <article>
-                        <img src="https://placehold.co/400x250" alt="Sub Story" class="img-fluid mb-2">
-                        <h4 class="h5">Lorem ipsum dolor sit amet</h4>
-                    </article>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <img src="https://placehold.co/400x225" class="img-fluid mb-2" alt="Secondary 1">
+                        <h6 class=" news-title fw-bold serif-font">Lorem ipsum dolor sit amet</h6>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <img src="https://placehold.co/400x225" class="img-fluid mb-2" alt="Secondary 2">
+                        <h6 class="news-title fw-bold serif-font">Lorem ipsum dolor sit amet</h6>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-lg-3">
-            <section class="mb-5">
-                <h3 class="section-title text-uppercase h6">Opinion</h3>
-                <div class="mb-3 border-bottom pb-2">
-                    <span class="text-danger small fw-bold">EDITORIAL</span>
-                    <h5 class="h6">Lorem ipsum dolor sit amet.</h5>
-                </div>
-                <div class="bg-light text-center py-5 border my-4">
-                    <span class="text-muted small">ADVERTISEMENT (Placeholder)</span>
-                </div>
-            </section>
+        <div class="col-lg-3 order-3 d-none d-lg-block ps-lg-4 border-start">
+            <div class="sidebar-right">
+                <h5 class="fw-bold text-uppercase small mb-3 border-bottom pb-2 text-danger">Lorem ipsum</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-3">
+                        <a href="#" class="text-decoration-none text-dark fw-bold serif-font d-block mb-1">dolor sit amet</a>
+                        <span class="small text-secondary">Lorem ipsum</span>
+                    </li>
+                    <li class="mb-3 border-top pt-2">
+                        <a href="#" class="text-decoration-none text-dark fw-bold serif-font d-block mb-1">Lorem ipsum</a>
+                        <span class="small text-secondary">dolor sit amet</span>
+                    </li>
+                </ul>
+            </div>
         </div>
 
     </div>
