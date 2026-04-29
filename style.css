@@ -4,6 +4,21 @@ header {
     padding: 20px 0;
 
 }
+.logo-subtext {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: -5px;
+    letter-spacing: 1px;
+}
+.logo-main {
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #000;
+}
+
 .placeholder-img { background-color: #e9ecef; border: 1px solid #dee2e6; }
 .navbar > .container {
     padding-right: 0 ;
@@ -18,13 +33,13 @@ header {
 }
 
 .navbar-light.sticky-top.border-bottom {
-    background-color: #b22222 !important;
-    border: none !important;
+    background-color: #b22222 ;
+    border: none ;
 }
 
 
 .navbar-light.sticky-top.border-bottom .nav-link {
-    color: white !important;
+    color: white ;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -69,6 +84,7 @@ header {
     font-size: 0.75rem;
 }
 .footer-sitemap h6 {
+    color: #8b0000 !important;
     font-size: 0.85rem;
     letter-spacing: 0.5px;
     margin-bottom: 15px;
