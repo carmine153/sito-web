@@ -131,7 +131,35 @@ header {
     background-color: #8b0000 !important;
 }
 
+.navbar-desktop-only .sticky-buttons {
+    flex-wrap: nowrap !important;
+    flex-shrink: 0 !important;
+    margin-left: auto;
+}
 
+
+.navbar-desktop-only .sticky-buttons a {
+    white-space: nowrap !important;
+}
+
+
+@media (min-width: 992px) {
+    .navbar-desktop-only .navbar-nav .nav-link {
+        font-size: clamp(0.75rem, 1.1vw, 0.95rem) !important;
+        padding-left: 0.5vw !important;
+        padding-right: 0.5vw !important;
+        white-space: nowrap !important;
+    }
+}
+
+
+@media (max-width: 1250px) and (min-width: 992px) {
+    .navbar-desktop-only .sticky-buttons a {
+        font-size: 0.7rem !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
 .sticky-top {
     top: 0;
     z-index: 1020;
