@@ -17,7 +17,34 @@ header {
     font-weight: bold;
     font-size: 3.5rem;
     color: #000;
+    white-space: nowrap !important;
+    display: inline-block;
+
+
 }
+@media (max-width: 1200px) {
+    .logo-main {
+        font-size: 2.8rem;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .logo-main {
+        font-size: 1.7rem;
+    }
+}
+@media(max-width:1000px)
+{
+    .header-desktop{
+        display:none;
+    }
+
+}
+.border-dark-red {
+    border-color: #9d0a0e !important;
+}
+
 .news-title {
     font-family: 'Georgia', serif;
     font-weight: 700;
@@ -77,13 +104,7 @@ header {
 .navbar-light.sticky-top.border-bottom {
     background-color: #b22222 ;
     border: none ;
-}
 
-
-.navbar-light.sticky-top.border-bottom .nav-link {
-    color: white ;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 
