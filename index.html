@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="col-md-3 d-flex justify-content-end align-items-center gap-3">
-                    <a href="#" class="text-dark"><i class="fa-regular fa-envelope fa-lg"></i></a>
+                    <a href="#" class="text-dark" aria-label="Invia una email alla redazione"><i class="fa-regular fa-envelope fa-lg"></i></a>
                     <a href="#" class="btn btn-danger btn-sm fw-bold px-3 py-1 text-uppercase" style="font-size: 0.7rem; border-radius: 0;">Subscribe</a>
                     <a href="#" class="text-dark fw-bold small text-decoration-none">Sign In</a>
                 </div>
@@ -50,13 +50,13 @@
 <nav class="navbar navbar-light bg-white sticky-top d-lg-none border-top border-bottom border-dark-red" style="border-width: 2px !important;">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-label="Apri menu di navigazione">
             <span class="navbar-toggler-icon "></span>
         </button>
 
         <a class="navbar-brand fw-bold serif-font text-dark m-0" href="#" style="font-family: serif; font-size: 1.5rem;">The Washington Times</a>
 
-        <button class="btn text-dark border-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#userMenu">
+        <button class="btn text-dark border-0 p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#userMenu" aria-label="Area utente e login">
             <i class="fa-solid fa-circle-user fa-xl"></i>
         </button>
 
@@ -64,8 +64,8 @@
 </nav>
 <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0 d-none d-lg-flex border-bottom navbar-desktop-only">
     <div class="container-fluid px-4">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon">a</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="navbar">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav text-uppercase fw-bold flex-nowrap">
@@ -112,7 +112,7 @@
 
         </div>
         <div class="ms-auto d-none align-items-center sticky-buttons " id="stickyButtons">
-            <a href="#" class="text-white px-3 border-end border-danger border-opacity-25">
+            <a href="#" class="text-white px-3 border-end border-danger border-opacity-25" aria-label="Contattaci via email">
                 <i class="fa-regular fa-envelope"></i>
             </a>
             <a href="#" class="bg-dark text-white px-3 py-2 text-decoration-none small fw-bold">
@@ -248,7 +248,7 @@
     </div>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="menuPersonale" style="background-color: #b22222 !important; width: 300px;">
         <div class="offcanvas-header justify-content-end">
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close">a</button>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body px-4 text-white">
             <div class="d-grid gap-2 mb-4">
@@ -264,7 +264,7 @@
 <div class="offcanvas offcanvas-start bg-dark-red text-white" tabindex="-1" id="mobileMenu">
     <div class="offcanvas-header border-bottom border-secondary">
         <h5 class="offcanvas-title fw-bold" id="mobileMenuLabel">THE WASHINGTON TIMES</h5>
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Chiudi menu"></button>
     </div>
     <div class="offcanvas-body">
         <ul class="navbar-nav">
